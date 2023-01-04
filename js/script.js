@@ -61,7 +61,7 @@
          flappy2048.onclick = function() {
            play.style.display = 'inline';
            main.style.display = 'none';
-           banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/2048_banner.png"
+           banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/2048_banner.jpeg"
            cover = "https://astral-studios.github.io/AA_Dependencies/images/game_covers/flappy2048_cover.png"
            description = "I found a game like this on a website so I just made my own clone because im bored i mean its only the second day of summer what am I exposed to do I have made 2 games already how many are we going to have by the end of the summer"
            name = "Flappy 2048"
@@ -72,7 +72,7 @@
          BlockGame.onclick = function() {
            play.style.display = 'inline';
            main.style.display = 'none';
-           banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/blockgame_banner.pdf"
+           banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/blockgame_banner.png"
            cover = "https://astral-studios.github.io/AA_Dependencies/images/game_covers/blockgame_cover.png"
            description = "I make this because I was bored like half of the games on this site. Click on a block for them all to dissapear and all rows and columns will move down and over";
            name = "Block Merge"
@@ -218,7 +218,7 @@
          hit_target.onclick = function() {
            play.style.display = 'inline';
            main.style.display = 'none';
-           banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/htt_banner.png"
+           banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/htt_banner.jpg"
            cover = "https://astral-studios.github.io/AA_Dependencies/images/game_covers/htt_cover.png"
            description = "You have to move your mouse to hit the target but as soon as your mouse goes over a block you die"
            name = "Hit the target"
