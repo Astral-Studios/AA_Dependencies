@@ -3,6 +3,7 @@
          var description
          var name
          var game_url
+	 var bitlife = document.getElementById('bitlife')
 	 var minecraft = document.getElementById('minecraft')
 	 var slope = document.getElementById('Slope')
          var city_builder = document.getElementById('City_Builder');
@@ -45,6 +46,18 @@
            set_properties(banner, cover, description, name)
          };
 	       
+	 bitlife.style.cursor = 'pointer';
+         bitlife.onclick = function() {
+           play.style.display = 'inline';
+           main.style.display = 'none';
+           banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/bitlife_banner.png"
+           cover = "https://astral-studios.github.io/AA_Dependencies/images/game_covers/bitlife_cover.jpg"
+           description = "it's the mobile game bitlife, but now on amazing math!"
+           name = "Bitlife"
+           game_url = "Projects/Bitlife/index.html"
+           set_properties(banner, cover, description, name)
+         };
+
 	 slope.style.cursor = 'pointer';
          slope.onclick = function() {
            play.style.display = 'inline';
