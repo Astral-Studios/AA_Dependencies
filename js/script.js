@@ -51,7 +51,7 @@
            play.style.display = 'inline';
            main.style.display = 'none';
            banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/bitlife_banner.png"
-           cover = "https://astral-studios.github.io/AA_Dependencies/images/game_covers/bitlife_cover.jpg"
+           cover = "https://astral-studios.github.io/AA_Dependencies/images/game_covers/bitlife_cover.png"
            description = "it's the mobile game bitlife, but now on amazing math!"
            name = "Bitlife"
            game_url = "Projects/Bitlife/index.html"
