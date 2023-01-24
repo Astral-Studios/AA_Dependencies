@@ -3,6 +3,7 @@
          var description
          var name
          var game_url
+	 var forts = document.getElementById('1v1')
 	 var bitlife = document.getElementById('bitlife')
 	 var minecraft = document.getElementById('minecraft')
 	 var slope = document.getElementById('Slope')
@@ -43,6 +44,18 @@
            description = "xlegends got blocked so heres minecraft, an actually fun game u can play on amazing math!"
            name = "minecraft"
            game_url = "Projects/minecraft/index.html"
+           set_properties(banner, cover, description, name)
+         };
+
+	 forts.style.cursor = 'pointer';
+         forts.onclick = function() {
+           play.style.display = 'inline';
+           main.style.display = 'none';
+           banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/1v1_banner.jpeg"
+           cover = "https://astral-studios.github.io/AA_Dependencies/images/game_covers/1v1_cover.jpeg"
+           description = "its like fortnite but on amazing math"
+           name = "1v1.lol"
+           game_url = "Projects/1v1/index.html"
            set_properties(banner, cover, description, name)
          };
 	       
