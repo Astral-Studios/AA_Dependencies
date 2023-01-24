@@ -3,6 +3,7 @@
          var description
          var name
          var game_url
+	 var stickman = document.getElementById('stickman')
 	 var forts = document.getElementById('1v1')
 	 var bitlife = document.getElementById('bitlife')
 	 var minecraft = document.getElementById('minecraft')
@@ -44,6 +45,18 @@
            description = "xlegends got blocked so heres minecraft, an actually fun game u can play on amazing math!"
            name = "minecraft"
            game_url = "Projects/minecraft/index.html"
+           set_properties(banner, cover, description, name)
+         };
+
+	 stickman.style.cursor = 'pointer';
+         stickman.onclick = function() {
+           play.style.display = 'inline';
+           main.style.display = 'none';
+           banner = "https://astral-studios.github.io/AA_Dependencies/images/game_banners/stickman_banner.jpeg"
+           cover = "https://astral-studios.github.io/AA_Dependencies/images/game_covers/stickman_cover.jpeg"
+           description = "its the mobile game stickman hook now on amazing math"
+           name = "Stickman Hook"
+           game_url = "Projects/stickman/index.html"
            set_properties(banner, cover, description, name)
          };
 
